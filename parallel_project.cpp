@@ -153,7 +153,7 @@ int main()
 	cin>>size;
 	cout<<endl;
 
-    for(int j = 0; j < 1; j++) {
+  //  for(int j = 0; j < 1; j++) {
 
         vector<double> M(size*size);
         if(size<10) cout<<"Input the A Matrix:\n";
@@ -178,7 +178,7 @@ int main()
 		GaussElimination::parallel(M, b, size);
         GaussElimination::serial(M, b, size);
 
-    }
+   // }
 
     return 0;
 }
